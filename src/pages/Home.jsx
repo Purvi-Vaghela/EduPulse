@@ -5,11 +5,11 @@ import { Link } from "react-router-dom"
 // Image and Video Import
 import Banner from "../assets/Images/banner.mp4"
 // Component Imports
-// import Footer from "../components/common/Footer"
+import Footer from "../components/common/Footer"
 // import ReviewSlider from "../components/common/ReviewSlider"
 import CTAButton from "../components/core/HomePage/Button"
 import CodeBlocks from "../components/core/HomePage/CodeBlocks"
-// import ExploreMore from "../components/core/HomePage/ExploreMore"
+import ExploreMore from "../components/core/HomePage/ExploreMore"
 import HighlightText from "../components/core/HomePage/HighlightText"
 import InstructorSection from "../components/core/HomePage/InstructorSection"
 import LearningLanguageSection from "../components/core/HomePage/LearningLanguageSection"
@@ -126,7 +126,7 @@ function Home() {
         </div>
 
         {/* Explore Section */}
-        {/* <ExploreMore /> */}
+        <ExploreMore />
       </div>
 
       {/* Section 2 */}
@@ -189,7 +189,7 @@ function Home() {
       </div>
 
       {/* Footer */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   )
 }
