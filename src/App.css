@@ -10,3 +10,12 @@ body {
 .homepage_bg{
     background: url('../src/assets/Images/bghome.svg');
 }
+
+.codeblock1 {
+    background: linear-gradient(to right, #1a1a1a, #333333);
+    opacity: 0.9;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+  }
+  
